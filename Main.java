@@ -14,6 +14,43 @@ public class Main implements Directions {
     public static void main(String[] args) {
         new JerooGUI();
         runJerooCode();
+        Jeroo betty = new Jeroo(1,1, SOUTH, 12);
+  betty.plant();
+  betty.hop();
+  betty.plant();
+  betty.hop();
+  betty.plant();
+  betty.hop();
+  betty.plant();
+  betty.hop();
+  betty.plant();
+  betty.turn(LEFT);
+  betty.hop();
+  betty.turn(LEFT);
+  betty.hop();
+  betty.hop();
+  betty.turn(LEFT);
+  betty.turn(LEFT);
+  betty.turn(LEFT);
+  betty.plant();
+  betty.hop();
+  betty.plant();
+  betty.hop();
+  betty.plant();
+  betty.turn(LEFT);
+  betty.hop();
+  betty.plant();
+  betty.hop();
+  betty.plant();
+  betty.turn(LEFT);
+  betty.turn(LEFT);
+  betty.hop();
+  betty.hop();
+  betty.hop();
+  betty.plant();
+  betty.hop();
+  betty.plant();
+  betty.hop();
     }
 
     /**
