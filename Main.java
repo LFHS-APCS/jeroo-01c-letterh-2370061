@@ -22,7 +22,7 @@ public class Main implements Directions {
     public static void runJerooCode() {
        // Write code here to make a letter here
        Jeroo betty = new Jeroo(1,1, SOUTH, 12);
-  betty.plantStraight5
+  betty.plantStraight5();
   betty.leftHop2();
   betty.hop();
   betty.turnRight();
